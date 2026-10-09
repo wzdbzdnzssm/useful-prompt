@@ -6,7 +6,7 @@ Useful English and Chinese AI prompts from [Skill2Web](https://reset.skill2web.c
 
 [Browse the complete online prompt library: search, choose a language and copy](https://reset.skill2web.com/en/prompts/?utm_source=github&utm_medium=referral&utm_campaign=useful_prompt&utm_content=readme_en)
 
-33 bilingual entries: 20 copyable full-text prompts and 13 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
+34 bilingual entries: 21 copyable full-text prompts and 13 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
 
 ## How to use
 
@@ -84,6 +84,7 @@ Tool and model names are context from the site entries, not cross-model compatib
 | [Iterative SEO Improvement](prompts/seo-improvement-cycle.md) | Use real ranking data to improve one keyword near the top position in each cycle. | Full text |
 | [Audit AGENTS and Skills](prompts/audit-agent-instructions.md) | Find agent instructions that cause unnecessary pauses, confirmations, or incomplete work. | Full text |
 | [Safe computer storage cleanup for Windows and macOS](prompts/computer-storage-cleanup.md) | Investigate disk usage and review cleanup candidates before confirmed moves to the Recycle Bin or Trash. | Full text |
+| [Fix AI Slop in Codex UI Copy: Remove Excess UI Verbosity and Developer Notes](prompts/657285a6-21b3-4f4e-bc5b-2d14346a7122.md) | Inspect user-facing content across the whole project, confirm related issues in groups, and clean redundant copy and developer notes at their source. | Full text |
 
 ## Browse online
 

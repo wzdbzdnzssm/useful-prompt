@@ -1369,6 +1369,115 @@
         }
       },
       "licenseNotice": "MIT"
+    },
+    {
+      "id": "657285a6-21b3-4f4e-bc5b-2d14346a7122",
+      "kind": "community",
+      "status": "full-text",
+      "category": "operations",
+      "license": "MIT",
+      "licenseNotice": "MIT",
+      "source": "AI Slop and UI copy cleanup with Codex",
+      "author": "Reset maintainers",
+      "sourceUrl": "https://github.com/wzdbzdnzssm/useful-prompt",
+      "sourceTitle": "AI Slop and UI copy cleanup with Codex",
+      "adapted": false,
+      "locales": {
+        "en": {
+          "title": "Fix AI Slop in Codex UI Copy: Remove Excess UI Verbosity and Developer Notes",
+          "purpose": "Inspect user-facing content across the whole project, confirm related issues in groups, and clean redundant copy and developer notes at their source.",
+          "body": "Please conduct a thorough review and cleanup of user-facing content throughout the current project. Focus on cases where AI, during development, put developer-directed messages, work reports, bug-fix records, implementation details, repetitive disclaimers, and similar material into the product delivered to users.\n\nThe goal is not merely to reduce text or empty pages. Every sentence in the final product should serve real users: useful, accurate, natural, and consistent throughout the project.\n\nOrganize the work and confirmation rounds according to actual findings: scan deeply first, ask the developer about related issues in batches, clean up after confirmation, and then review systematically. Do not start by editing, or declare completion after checking only the home page and searching a few keywords.\n\n1. First determine which content is problematic\n\nPay particular attention to the following, without limiting the review to these examples:\n\n- Work reports directed at the developer, such as “the redesign is complete,” “we added… here,” or “now supports…”. Judge them in context: an official product update announcement may be appropriate, but development reports should not appear on ordinary feature pages.\n- Text repeating development requirements or describing page design and implementation, such as “displayed in a card layout,” “this is the dark-mode hero section,” or “this area highlights the main selling points.”\n- Text exposing the development process, such as “this used to throw an error,” “temporarily working around this issue,” “to pass the tests,” or “awaiting a future integration.” Distinguish useless development records from feature limitations users actually need to know.\n- Internal terminology, variable names, debugging information, stacks, raw API errors, and similar details shown to ordinary users without translating them into understandable, actionable information.\n- Unhelpful self-explanation, repeated reminders, generic disclaimers, piles of small print, and copy that exists only to explain product defects.\n- Demo placeholders, scaffold leftovers, prompt remnants, untrue marketing promises, and explanations that no longer match current functionality.\n- Text that seems reasonable alone but contradicts other pages, language versions, feature states, or actual behavior.\n\nDo not judge by a single word. Consider the audience, placement, feature state, and practical value to distinguish explanations for the developer from useful information for users.\n\nRetain genuinely necessary instructions, real feature limitations, data sources and freshness, recovery steps after errors, fees and subscription terms, privacy and permissions, warnings about irreversible actions, necessary compliance disclosures, and similar information. Do not ask the developer to approve retaining each item. If necessary content is too long, repetitive, or misplaced, propose shortening or relocating it rather than deleting it outright.\n\nDo not assume existing content was intentionally retained by the developer, or classify every uncertain item as “necessary” merely because it is difficult to judge.\n\n2. Scan deeply into content sources and every related location\n\nFirst understand the project structure, existing project rules, routes, content management, multilingual mechanisms, and the outputs users can actually receive. Build coverage and issue inventories yourself; do not base cleanup solely on scattered search results.\n\nCover user touchpoints that actually exist in the project, for example:\n\n- All user-accessible pages, shared components, dialogs, banners, tooltips, form help, footers, mobile layouts, and content seen before and after login or by different roles.\n- Loading, empty data, success, failure, insufficient permissions, missing configuration, demo mode, disabled features, and similar states. Pay special attention to fallback copy rarely encountered during normal browsing.\n- Translations, default-language and fallback content, page titles and descriptions, sharing previews, accessibility text, and emails, notifications, reports, or other outputs the product actually sends or exports.\n- User-visible portions of databases, CMS content, configuration, API responses, templates, and AI-generated content.\n\nCombine static search, contextual reading, call relationships, and checks of the running product. Do not search only for keywords like “complete” or “disclaimer,” or inspect only one font size or visual style.\n\nTrace the complete chain for each issue class: where the content originates, which templates or components process it, where it appears, and whether language versions, historical copies, or fallback versions exist. Check every use of shared copy; do not fix one context while damaging another.\n\nScan accessible areas as completely as possible. Clearly record gaps and reasons for inaccessible databases, third-party content, or runtime states, and continue with other available work. Do not pretend those areas were covered.\n\nInternal development documents, appropriate code comments, test explanations, and development logs are outside this cleanup unless they actually reach the user interface or directly keep generating problematic copy. Do not damage maintenance information in the name of removing an “AI feel.”\n\n3. Ask in batches based on findings, not file by file\n\nSubmit only these two classes of content for the developer's judgment:\n\nA. Content you have clear reasons to recommend deleting, shortening, rewriting, or moving out of the user interface.\nB. Content whose product intent, necessity, or treatment is uncertain.\n\nRetain content that is clearly necessary without asking for item-by-item confirmation.\n\nComplete enough scanning to identify relationships first. Then organize confirmation batches by shared issue, source, or product decision. Choose the number of rounds according to project size. Do not send dozens of scattered questions at once or interrupt every time you find a sentence.\n\nFor each group, provide enough information to decide:\n- Where and under what circumstances users see it.\n- Representative original text and a locatable file, component, or content source.\n- Why you recommend action and what information may still need to remain.\n- The verified related scope, including other pages, languages, and states.\n- The recommended treatment; for rewrites, provide replacement copy.\n- Potential effects and any product intent that needs confirmation.\n\nIssues with a shared source or type can be confirmed together without listing every similar sentence repeatedly. Internally record every location so none are missed in execution. Do not fold necessary disclosures, feature meanings, or exceptions in different contexts into a bulk-deletion group.\n\nAllow replies by number, such as “delete group 1, rewrite group 2 as suggested, keep group 3,” and allow exceptions for individual locations within a group. State your recommendation clearly rather than leaving all the analysis to the developer.\n\nDo not modify pending content without confirmation. Explicitly approved rules and related scope can be executed as a group without repeated questions. Newly discovered similar content may be included only if it truly follows the approved rule and has no new semantic or risk differences; otherwise submit it in the next batch. Leave unanswered items unchanged. Silence is not consent.\n\n4. Cleanup must address sources and related effects\n\nAfter confirmation, delete, shorten, rewrite, or relocate content according to the developer's choices, and update every related location.\n\n- Prefer changes to the actual content source, shared component, template, or generation rule. Do not edit only a page copy or hide the problem with CSS.\n- If AI-generation templates or prompts cause the issue, correct the responsible rules. Explain the effects of bulk regeneration of existing content and obtain separate confirmation. Fixing future output does not mean historical issues are resolved.\n- Check translations, mobile views, different entry points for the same feature, and exceptional states together. Do not globally replace shared strings without checking context. Translation fallbacks must not restore removed content.\n- After removing copy, check for empty cards or headings, unnecessary separators, odd whitespace, unexplained buttons, and dangling references such as “below” or “the explanation above.”\n- Remove related styles, imports, translation keys, and test snapshots only when they are truly unused and have no other purpose. Do not expand this into unrelated refactoring, dependency upgrades, or broad formatting changes.\n- Rewrite information users need as clear facts and actionable guidance. For example, errors should explain what happened and what the user can do, rather than the development process. Do not hide real errors, fake success, or remove limitation notices to make the interface look clean.\n- Do not mistakenly delete necessary accessibility labels, input requirements, permission explanations, or operation warnings because “there is too much text.”\n- Development explanations with lasting maintenance value may be moved into suitable existing internal documentation after confirmation. Worthless process logs need not be accumulated elsewhere.\n- For generated files, build outputs, and caches, correct their sources and refresh them using the project's existing process. Do not edit only disposable outputs.\n\nFollow existing project practices, preserve the developer's changes, and do not overwrite or revert unrelated work. Explain and obtain separate confirmation for production data changes, bulk regeneration, external sending, or deployment and release; these are not covered by copy-cleanup authorization. Do not output secrets or sensitive information about real users. In Windows/PowerShell environments, explicitly use UTF-8 when reading and writing text to avoid corrupted Chinese characters.\n\n5. Review the whole project afterward, not just edited files\n\nThe review must answer at least these questions:\n\n1. Was every approved item handled in all verified related locations? Were changes limited to the default language, desktop view, or normal state?\n2. Can the original problems still emerge through other templates, APIs, fallback content, or generation rules?\n3. Does the cleaned copy match actual functionality? Are there new contradictions, missing information, or excessive promises?\n4. Do page structure, responsive layout, accessibility, and interactions work correctly?\n5. Were necessary user guidance or internal maintenance information accidentally deleted?\n6. Did this round add new explanations, small print, or disclaimers merely to describe the cleanup work?\n\nVerify using the project's existing checks, tests, builds, and runtime procedures. Inspect real pages where possible, especially affected shared components and exceptional states. If tests or snapshots need updates, check that the resulting behavior is correct; do not simply delete assertions or blindly accept snapshots to pass checks. Clearly label any verification you did not actually perform as “not performed,” not passed.\n\nFinish with a concise delivery report: cleanup categories and coverage completed, decisions still pending, verification results, uncovered areas, and reasons. Distinguish “scanning complete,” “cleanup of confirmed items complete,” and “unresolved items remain.” Do not describe partial completion as comprehensive completion.\n\nStart now: perform a read-only scan and build coverage and issue inventories first. After the first analysis round, submit the first batch of issues requiring developer confirmation, then wait for a reply. Do not assume the project has these problems or invent issues to meet a quota.",
+          "inputs": "Project files, existing rules, accessible user-facing pages and content sources, and developer confirmation of grouped recommendations.",
+          "expected": "Coverage and issue inventories, grouped proposals, confirmed cleanup across related locations, and actual verification results with coverage gaps.",
+          "audience": "Developers using Codex or similar coding assistants to maintain websites and product interfaces.",
+          "requirements": [
+            "conversation",
+            "files",
+            "code-generation"
+          ],
+          "adapted": false,
+          "searchTerms": [
+            "Codex",
+            "AI Slop",
+            "UI Copy",
+            "Excess UI Verbosity",
+            "Redundant UI Text",
+            "Over-explaining",
+            "Remove AI Slop",
+            "UI Copy Cleanup",
+            "Codex Prompt",
+            "Developer Notes"
+          ],
+          "keywords": [
+            "Codex",
+            "AI Slop",
+            "UI Copy",
+            "Excess UI Verbosity",
+            "Redundant UI Text",
+            "Over-explaining",
+            "Remove AI Slop",
+            "UI Copy Cleanup",
+            "Codex Prompt",
+            "Developer Notes"
+          ],
+          "siteUrl": "https://reset.skill2web.com/en/prompts/community/657285a6-21b3-4f4e-bc5b-2d14346a7122/",
+          "bodyLanguage": "en",
+          "tool": "通用",
+          "tags": [
+            "review",
+            "writing-content",
+            "web-build"
+          ],
+          "whenToUse": "Inspect user-facing content across the whole project, confirm related issues in groups, and clean redundant copy and developer notes at their source.",
+          "completion": "Coverage and issue inventories, grouped proposals, confirmed cleanup across related locations, and actual verification results with coverage gaps."
+        },
+        "zh": {
+          "title": "Codex UI 文案去 AI 味：清理 AI Slop 与开发说明",
+          "purpose": "深查全项目用户可见内容，按关联问题分组确认，再从内容源清理冗余文案和开发说明。",
+          "body": "请对当前项目做一次深入的“面向用户内容审查与清理”，重点排查：AI 在开发过程中，把本应对开发者说的话、工作汇报、错误修复记录、实现细节、重复免责说明等，写进了最终交付给用户的产品。\n\n目标不是单纯减少文字，也不是把页面清空，而是让最终产品中的每句话都面向真实用户：有用、准确、自然，且全项目表述一致。\n\n请根据实际扫描结果，自行安排工作步骤和确认轮次：先深入扫描，再按关联问题分批询问开发者，得到确认后清理，最后系统复查。不要一上来就修改，也不要只检查首页、搜索几个关键词便宣称完成。\n\n一、先判断哪些内容有问题\n\n重点关注以下内容，但不要局限于这些例子：\n\n- 向开发者汇报工作的文字，例如“已完成改版”“这里新增了……”“现在支持……”。需要结合上下文判断：正式的产品更新公告可能合理，但开发汇报不应混进普通功能页面。\n- 复述开发要求、描述页面设计或实现方式的文字，例如“采用卡片布局展示”“这是深色版本的首屏”“此区域用于突出核心卖点”。\n- 暴露开发过程的文字，例如“之前这里会报错”“暂时绕过这个问题”“为了通过测试”“等待后续接入”。注意区分无用的开发记录与用户确实需要知道的功能限制。\n- 面向普通用户暴露内部术语、变量名、调试信息、堆栈、原始接口报错等，且没有转化为用户能理解、能采取行动的信息。\n- 没有实际帮助的自我解释、重复提醒、泛泛免责、小字堆砌，以及只是为解释产品缺陷而存在的文案。\n- 演示占位文案、脚手架残留、提示词残留、不真实的宣传承诺，以及已经与当前功能不符的说明。\n- 单独看似乎正常，但与其他页面、语言版本、功能状态或实际行为矛盾的文字。\n\n不要仅凭某个词判断。结合内容的受众、出现位置、功能状态和实际价值，分清“对开发者的交代”和“对用户有用的信息”。\n\n确实必要的操作指导、真实功能限制、数据来源与时效、错误后的解决办法、费用与订阅条件、隐私权限、不可逆操作警告、必要的合规披露等，应当保留，不必逐项询问开发者。必要内容如果过长、重复或出现位置不当，可以提出精简或调整位置的建议，而不是直接删除。\n\n不要因为内容已经存在，就推定它一定是开发者有意保留的；也不要因为不好判断，就把所有可疑内容都归为“必要”。\n\n二、扫描必须深入到内容来源和全部关联位置\n\n先理解项目结构、现有项目规范、路由、内容管理方式、多语言机制，以及用户实际能收到哪些输出。自行建立覆盖清单和问题清单，不能仅凭零散搜索结果开展清理。\n\n扫描范围应覆盖项目实际存在的用户触点，例如：\n\n- 所有用户可达页面、共享组件、弹窗、提示条、工具提示、表单帮助、页脚、移动端布局，以及登录前后和不同角色看到的内容。\n- 加载、空数据、成功、失败、无权限、未配置、演示模式、功能关闭等状态；尤其关注正常浏览时不容易出现的兜底文案。\n- 多语言文案、默认语言和回退内容、页面标题与描述、分享预览、无障碍文本，以及产品实际发送或导出的邮件、通知、报告等。\n- 数据库、CMS、配置、接口响应、模板及 AI 生成内容中，最终会展示给用户的部分。\n\n结合静态搜索、上下文阅读、调用关系和实际运行检查开展审查。不要只搜索“已完成”“免责声明”等关键词，也不要只检查某一种字体大小或视觉样式。\n\n对每类问题追踪完整链路：内容从哪里产生、经过什么模板或组件、在哪些位置展示、是否还有语言版本、历史副本或回退版本。共享文案要核对所有使用场景，不能修好一处却误伤另一处。\n\n能访问的范围尽量完整扫描；确实无法访问的数据库、第三方内容或运行状态，明确记录缺口及原因，并继续完成其他可做部分，不要假装已经覆盖。\n\n内部开发文档、合理的代码注释、测试说明和开发日志，不属于本次清理对象，除非它们实际泄漏到了用户界面，或直接导致问题文案持续生成。不要为了“去 AI 味”破坏维护信息。\n\n三、根据扫描结果分批询问，而不是逐文件打扰\n\n只把以下两类内容提交给开发者判断：\n\nA. 有明确理由建议删除、精简、改写或移出用户界面的内容。\nB. 无法确定产品意图、必要性或处理方式的内容。\n\n确定应当保留的必要内容，直接保留，不需要让开发者逐条确认。\n\n先完成足以识别关联关系的扫描，再按同一问题、同一来源或同一产品决策组织确认批次。具体分几轮由你根据项目规模决定，不要一次塞来几十个零散问题，也不要每发现一句话就中断询问。\n\n每组问题提供足够开发者做决定的信息：\n- 用户会在哪里、什么情况下看到它。\n- 有代表性的原文，以及可定位的文件、组件或内容来源。\n- 为什么建议处理，哪些信息可能仍需保留。\n- 已确认的关联范围，包括其他页面、语言和状态。\n- 建议处理方式；涉及改写时，给出替换后的文案。\n- 处理后可能影响什么，是否存在需要确认的产品意图。\n\n同源或同类问题可以成组确认，不必重复罗列全部相似文案，但你必须内部记录完整位置，执行时不能遗漏。涉及必要披露、功能含义或不同场景的例外，不要混进批量删除组。\n\n让开发者可以按编号回复，例如“第1组删除，第2组按建议改写，第3组保留”，并允许对同一组中的个别位置例外处理。明确给出你的建议，不要把分析工作全部推给开发者。\n\n未经确认，不修改待处理内容。已经明确批准的规则和关联范围可以成组执行，不必重复询问；新发现的同类内容只有在确实符合已批准规则、且没有新的语义或风险差异时才能一并处理，否则放入下一批确认。未回复的项目保持原样，不把沉默当作同意。\n\n四、清理必须处理根源和关联影响\n\n确认后，按开发者选择执行删除、精简、改写或调整展示位置，并同步处理所有关联位置。\n\n- 优先修改真实内容源、共享组件、模板或生成规则，不要只改某个页面上的副本，也不要靠 CSS 隐藏问题。\n- 若问题来自 AI 生成模板或提示词，应修正导致问题的规则；已有内容是否需要批量重生成，要单独说明影响并获得相应确认，不能只修以后生成的内容就宣称历史问题也解决了。\n- 多语言、移动端、相同功能的不同入口和异常状态要同步核对。共享字符串不能未经上下文检查就全局替换；翻译回退也不能把删掉的内容重新显示出来。\n- 删除文案后，检查是否留下空卡片、空标题、多余分隔线、异常留白、失去说明的按钮，以及“如下”“上述说明”等悬空引用。\n- 清理确实不再使用的相关样式、导入、翻译键和测试快照，但先确认没有其他用途。不要借机扩大成无关重构、依赖升级或大规模格式化。\n- 用户需要知道的信息，应改成清楚的事实和行动指引。例如错误提示要说明发生了什么、用户能做什么，而不是展示开发过程；不能通过隐藏真实错误、伪造成功或删掉限制说明来让界面显得干净。\n- 必要的无障碍标签、输入要求、权限解释和操作警告不能因“界面上文字太多”被误删。\n- 有长期维护价值的开发说明，可在确认后移入现有合适的内部文档；无价值的过程流水账不必换个地方继续堆积。\n- 对生成文件、构建产物或缓存，应修正其来源并按项目现有方式更新，不要只修改一次性产物。\n\n遵循项目现有工作规范，保留开发者已有改动，不覆盖或回滚无关工作。涉及线上数据修改、批量重生成、外部发送或部署发布时，单独说明并确认，不视为文案清理授权的一部分。不要输出密钥或真实用户敏感信息；Windows/PowerShell 环境下读写文本显式使用 UTF-8，避免中文乱码。\n\n五、完成后做全项目复查，而不是只看改过的文件\n\n复查至少回答这些问题：\n\n1. 已批准处理的每一项，是否在所有已确认的关联位置落实？有没有只改默认语言、桌面版或正常状态？\n2. 原来的问题是否仍从其他模板、接口、回退内容或生成规则中出现？\n3. 清理后的文案是否与真实功能一致？是否出现新的前后矛盾、信息缺失或过度承诺？\n4. 页面结构、响应式布局、无障碍体验和交互是否正常？\n5. 必要的用户提示和内部维护信息是否被误删？\n6. 是否有本轮新引入的“为了说明清理工作而添加的解释、小字或免责内容”？\n\n使用项目现有的检查、测试、构建和运行方式验证，条件允许时检查实际页面，尤其是受影响的共享组件和异常状态。测试或快照需要更新时，应核对修改后的行为是否正确，不能仅删除断言或无脑接受快照来让检查通过。没有实际执行的验证，明确写“未执行”，不要当成通过。\n\n最终给出简明交付说明：已完成的清理类别与覆盖范围、仍待决定的事项、验证结果、未覆盖范围及原因。明确区分“扫描完成”“已确认部分清理完成”和“仍有未决事项”，不要把部分完成说成全面完成。\n\n现在开始：先只读扫描并建立覆盖与问题清单，完成第一轮分析后，提交第一批需要开发者确认的问题，然后等待回复。不要预先假定项目一定存在上述问题，也不要为了凑数量制造问题。",
+          "inputs": "当前项目文件、现有规范、可访问的用户页面与内容来源，以及开发者对分组建议的确认。",
+          "expected": "覆盖与问题清单、分组处理建议、获确认后的关联清理及真实验证结果与未覆盖范围。",
+          "audience": "使用 Codex 等开发助手维护网站和产品界面的开发者。",
+          "requirements": [
+            "conversation",
+            "files",
+            "code-generation"
+          ],
+          "adapted": false,
+          "searchTerms": [
+            "Codex",
+            "AI Slop",
+            "UI Copy",
+            "Codex 去AI味",
+            "AI网页文案清理",
+            "页面冗余文案",
+            "Codex 开发说明",
+            "文案分组确认",
+            "UI Copy Cleanup"
+          ],
+          "keywords": [
+            "Codex",
+            "AI Slop",
+            "UI Copy",
+            "Codex 去AI味",
+            "AI网页文案清理",
+            "页面冗余文案",
+            "Codex 开发说明",
+            "文案分组确认",
+            "UI Copy Cleanup"
+          ],
+          "siteUrl": "https://reset.skill2web.com/zh/prompts/community/657285a6-21b3-4f4e-bc5b-2d14346a7122/",
+          "bodyLanguage": "zh",
+          "tool": "通用",
+          "tags": [
+            "review",
+            "writing-content",
+            "web-build"
+          ],
+          "whenToUse": "深查全项目用户可见内容，按关联问题分组确认，再从内容源清理冗余文案和开发说明。",
+          "completion": "覆盖与问题清单、分组处理建议、获确认后的关联清理及真实验证结果与未覆盖范围。"
+        }
+      }
     }
   ]
 }
