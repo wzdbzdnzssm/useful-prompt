@@ -1777,6 +1777,31 @@
           "siteUrl": "https://reset.skill2web.com/zh/prompts/community/d076c9fc-92ae-415d-a1ea-d757c383de18/"
         }
       }
+    },
+    {
+      "id": "4ca6a11e-c5a5-48d6-8e77-7945c97feb2f",
+      "kind": "community",
+      "status": "reference-only",
+      "category": "operations",
+      "license": "LicenseRef-Unknown",
+      "licenseNotice": "No explicit reuse license found; source attribution required",
+      "source": "Analyze campaign performance",
+      "author": "Anthropic",
+      "sourceUrl": "https://academy.claude.com/use-cases/analyze-campaign-performance",
+      "sourceTitle": "Analyze campaign performance",
+      "adapted": true,
+      "locales": {
+        "en": {
+          "title": "Analyze Campaigns and Plan Next Steps",
+          "purpose": "Compare campaign, channel, and segment performance using supplied data and business goals, then recommend measurable next-period actions.",
+          "siteUrl": "https://reset.skill2web.com/en/prompts/community/4ca6a11e-c5a5-48d6-8e77-7945c97feb2f/"
+        },
+        "zh": {
+          "title": "分析营销活动并规划下一步",
+          "purpose": "根据营销数据和业务目标比较活动、渠道与客群表现，并制定可衡量的下一阶段改进建议。",
+          "siteUrl": "https://reset.skill2web.com/zh/prompts/community/4ca6a11e-c5a5-48d6-8e77-7945c97feb2f/"
+        }
+      }
     }
   ]
 }

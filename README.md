@@ -6,7 +6,7 @@ Useful English and Chinese AI prompts from [Skill2Web](https://reset.skill2web.c
 
 [Browse the complete online prompt library: search, choose a language and copy](https://reset.skill2web.com/en/prompts/?utm_source=github&utm_medium=referral&utm_campaign=useful_prompt&utm_content=readme_en)
 
-40 bilingual entries: 25 copyable full-text prompts and 15 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
+41 bilingual entries: 25 copyable full-text prompts and 16 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
 
 ## How to use
 
@@ -91,6 +91,7 @@ Tool and model names are context from the site entries, not cross-model compatib
 | [Practice Teaching a Topic](prompts/f1ec89d3-34f4-4062-b839-21ef8abc5dec.md) | Practice explaining a topic by teaching a novice role-play partner, then reflect on how to check a learner’s understanding. | Full text |
 | [Identify Sponsors in a Transcript](prompts/ccd4f640-3567-49d0-b2f7-6a01a4b93863.md) | Identify official sponsors supported by a supplied transcript or text, distinguishing sponsorship from ordinary mentions. | Full text |
 | [Review a Renewal Contract and Prepare to Negotiate](prompts/d076c9fc-92ae-415d-a1ea-d757c383de18.md) | Compare an existing agreement with a renewal proposal and prepare evidence-based negotiation priorities, fallback positions, and verification needs. | Reference |
+| [Analyze Campaigns and Plan Next Steps](prompts/4ca6a11e-c5a5-48d6-8e77-7945c97feb2f.md) | Compare campaign, channel, and segment performance using supplied data and business goals, then recommend measurable next-period actions. | Reference |
 
 ## Browse online
 
