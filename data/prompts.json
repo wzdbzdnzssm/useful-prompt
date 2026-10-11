@@ -1716,6 +1716,65 @@
           "completion": "一段简短的互动式教学练习，以及一个关于如何检查学习者理解程度的反思问题。"
         }
       }
+    },
+    {
+      "id": "ccd4f640-3567-49d0-b2f7-6a01a4b93863",
+      "kind": "community",
+      "status": "full-text",
+      "category": "operations",
+      "license": "MIT",
+      "licenseNotice": "MIT License\n\nCopyright (c) 2012-2024 Scott Chacon and others\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLicense source: https://github.com/danielmiessler/Fabric/blob/main/LICENSE",
+      "source": "extract sponsors",
+      "author": "Daniel Miessler and Fabric contributors",
+      "sourceUrl": "https://raw.githubusercontent.com/danielmiessler/Fabric/main/data/patterns/extract_sponsors/system.md",
+      "sourceTitle": "extract sponsors",
+      "adapted": true,
+      "locales": {
+        "en": {
+          "title": "Identify Sponsors in a Transcript",
+          "purpose": "Identify official sponsors supported by a supplied transcript or text, distinguishing sponsorship from ordinary mentions.",
+          "body": "Review the full supplied transcript or text to identify organizations that are explicitly presented as sponsors of the content. Distinguish official sponsorship from ordinary mentions, guests, products, affiliates, or other references. Include only sponsors supported by clear evidence in the material; do not infer sponsorship from a mention alone. For each supported sponsor, provide the source channel or program if identifiable, the sponsor’s name, a concise description grounded in the text, and a link only when one is explicitly supplied. Do not invent descriptions, links, or sponsor relationships. If the material does not establish any official sponsors, say so. Note any ambiguity that prevents a confident classification.\n\nMaterial:\n[Paste the transcript or text]",
+          "inputs": "A pasted podcast or video transcript, or other relevant text; optionally, the source channel or program name.",
+          "expected": "An evidence-based sponsor list with the source channel or program, sponsor names, text-grounded descriptions, and links only when supplied; otherwise, a clear statement that sponsorship is not established and any relevant ambiguity.",
+          "audience": "Editors, researchers, and content teams cataloging sponsorship information in shows, videos, or other materials.",
+          "requirements": [
+            "conversation"
+          ],
+          "adapted": true,
+          "keywords": [],
+          "siteUrl": "https://reset.skill2web.com/en/prompts/community/ccd4f640-3567-49d0-b2f7-6a01a4b93863/",
+          "bodyLanguage": "en",
+          "tool": "通用",
+          "tags": [
+            "research",
+            "knowledge-workflow"
+          ],
+          "whenToUse": "Identify official sponsors supported by a supplied transcript or text, distinguishing sponsorship from ordinary mentions.",
+          "completion": "An evidence-based sponsor list with the source channel or program, sponsor names, text-grounded descriptions, and links only when supplied; otherwise, a clear statement that sponsorship is not established and any relevant ambiguity."
+        },
+        "zh": {
+          "title": "从文字稿中识别赞助商",
+          "purpose": "从用户提供的文字稿或文本中识别有明确依据的官方赞助商，并将其与一般提及区分开来。",
+          "body": "Review the full supplied transcript or text to identify organizations that are explicitly presented as sponsors of the content. Distinguish official sponsorship from ordinary mentions, guests, products, affiliates, or other references. Include only sponsors supported by clear evidence in the material; do not infer sponsorship from a mention alone. For each supported sponsor, provide the source channel or program if identifiable, the sponsor’s name, a concise description grounded in the text, and a link only when one is explicitly supplied. Do not invent descriptions, links, or sponsor relationships. If the material does not establish any official sponsors, say so. Note any ambiguity that prevents a confident classification.\n\nMaterial:\n[Paste the transcript or text]",
+          "inputs": "粘贴的节目文字稿、视频文字稿或其他相关文本；可选：来源频道或节目名称。",
+          "expected": "有依据的赞助商名单，包括来源频道或节目、名称、基于文本的简介及文本中提供的链接；若无法确认赞助关系，则说明这一点并指出歧义。",
+          "audience": "需要整理节目、视频或其他内容中赞助信息的编辑、研究人员和内容团队。",
+          "requirements": [
+            "conversation"
+          ],
+          "adapted": true,
+          "keywords": [],
+          "siteUrl": "https://reset.skill2web.com/zh/prompts/community/ccd4f640-3567-49d0-b2f7-6a01a4b93863/",
+          "bodyLanguage": "zh",
+          "tool": "通用",
+          "tags": [
+            "research",
+            "knowledge-workflow"
+          ],
+          "whenToUse": "从用户提供的文字稿或文本中识别有明确依据的官方赞助商，并将其与一般提及区分开来。",
+          "completion": "有依据的赞助商名单，包括来源频道或节目、名称、基于文本的简介及文本中提供的链接；若无法确认赞助关系，则说明这一点并指出歧义。"
+        }
+      }
     }
   ]
 }
