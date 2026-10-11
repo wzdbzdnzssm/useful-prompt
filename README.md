@@ -102,7 +102,7 @@ Tool and model names are context from the site entries, not cross-model compatib
 
 ## Sources, licenses and maintenance
 
-Public snapshot: 2026-10-09. Full texts preserve the site's language versions; updates are maintained manually, without an automatic-sync promise. The structured source of truth is [data/prompts.json](data/prompts.json).
+Public snapshot: 2026-10-11. Full texts preserve the site's language versions; updates are maintained manually, without an automatic-sync promise. The structured source of truth is [data/prompts.json](data/prompts.json).
 
 [MIT LICENSE](LICENSE) covers original repository documentation and prompt versions identified as site originals. Mollick adaptations retain CC BY 4.0; the Fabric adaptation retains its MIT notice. See [third-party notices](THIRD_PARTY_NOTICES.md). Other sources are linked only, with no license granted for their source texts.
 

@@ -102,7 +102,7 @@
 
 ## 来源、许可与维护
 
-公开快照日期：2026-10-09。正文保持网站对应语言的现有文本，不承诺自动同步。结构化单源为 [data/prompts.json](data/prompts.json)。
+公开快照日期：2026-10-11。正文保持网站对应语言的现有文本，不承诺自动同步。结构化单源为 [data/prompts.json](data/prompts.json)。
 
 [MIT LICENSE](LICENSE) 适用于仓库原创文档和标识为本站原创的提示词版本。Mollick 精选改编保留 CC BY 4.0，Fabric 改编保留其 MIT 通知；详情见 [第三方许可](THIRD_PARTY_NOTICES.md)。其他来源仅收录链接，不授予来源文本许可。
 

@@ -1,5 +1,5 @@
 {
-  "snapshotDate": "2026-10-09",
+  "snapshotDate": "2026-10-11",
   "site": "https://reset.skill2web.com",
   "prompts": [
     {
@@ -1506,7 +1506,7 @@
           "adapted": true,
           "keywords": [],
           "siteUrl": "https://reset.skill2web.com/zh/prompts/community/36bb19a1-8565-4f0a-b52e-70cbbe998237/",
-          "bodyLanguage": "zh",
+          "bodyLanguage": "en",
           "tool": "通用",
           "tags": [
             "decision-planning",
@@ -1566,7 +1566,7 @@
           "adapted": true,
           "keywords": [],
           "siteUrl": "https://reset.skill2web.com/zh/prompts/community/6e39a7ce-fbef-401f-be95-23e77024ee6f/",
-          "bodyLanguage": "zh",
+          "bodyLanguage": "en",
           "tool": "通用",
           "tags": [
             "learning-growth"
@@ -1625,7 +1625,7 @@
           "adapted": true,
           "keywords": [],
           "siteUrl": "https://reset.skill2web.com/zh/prompts/community/3ae3762e-4e4d-4b8f-8465-d8331271a552/",
-          "bodyLanguage": "zh",
+          "bodyLanguage": "en",
           "tool": "通用",
           "tags": [
             "learning-growth"
@@ -1684,7 +1684,7 @@
           "adapted": true,
           "keywords": [],
           "siteUrl": "https://reset.skill2web.com/zh/prompts/community/f1ec89d3-34f4-4062-b839-21ef8abc5dec/",
-          "bodyLanguage": "zh",
+          "bodyLanguage": "en",
           "tool": "通用",
           "tags": [
             "learning-growth"
@@ -1742,7 +1742,7 @@
           "adapted": true,
           "keywords": [],
           "siteUrl": "https://reset.skill2web.com/zh/prompts/community/ccd4f640-3567-49d0-b2f7-6a01a4b93863/",
-          "bodyLanguage": "zh",
+          "bodyLanguage": "en",
           "tool": "通用",
           "tags": [
             "research",
@@ -1853,7 +1853,7 @@
           "adapted": true,
           "keywords": [],
           "siteUrl": "https://reset.skill2web.com/zh/prompts/community/a623513b-2d02-476f-887a-ed18d19148dd/",
-          "bodyLanguage": "zh",
+          "bodyLanguage": "en",
           "tool": "通用",
           "tags": [
             "learning-growth",
@@ -1913,7 +1913,7 @@
           "adapted": true,
           "keywords": [],
           "siteUrl": "https://reset.skill2web.com/zh/prompts/community/58ea1701-131a-43ad-9c5e-ae3c10bcf34c/",
-          "bodyLanguage": "zh",
+          "bodyLanguage": "en",
           "tool": "通用",
           "tags": [
             "learning-growth"
@@ -1971,7 +1971,7 @@
           "adapted": true,
           "keywords": [],
           "siteUrl": "https://reset.skill2web.com/zh/prompts/community/e986384c-eec7-43e2-9d0c-02f423963f1a/",
-          "bodyLanguage": "zh",
+          "bodyLanguage": "en",
           "tool": "通用",
           "tags": [
             "research",
