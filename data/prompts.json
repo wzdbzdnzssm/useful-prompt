@@ -2065,6 +2065,31 @@
           "siteUrl": "https://reset.skill2web.com/zh/prompts/community/6e914b98-264c-4dd2-94f7-49e20f46c193/"
         }
       }
+    },
+    {
+      "id": "486a7a0a-ed03-4fb2-9886-010215959dc5",
+      "kind": "community",
+      "status": "reference-only",
+      "category": "operations",
+      "license": "LicenseRef-Unknown",
+      "licenseNotice": "LicenseRef-Unknown",
+      "source": "Prepare and plan from your calendar — Original source by Anthropic",
+      "author": "Reset maintainers (independent adaptation)",
+      "sourceUrl": "https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar",
+      "sourceTitle": "Prepare and plan from your calendar — Original source by Anthropic",
+      "adapted": true,
+      "locales": {
+        "en": {
+          "title": "Prepare for Your Calendar Day",
+          "purpose": "Use a specified day’s events and available related messages or materials to surface meeting context, preparation needs, and logistics gaps, while clearly noting uncertainty.",
+          "siteUrl": "https://reset.skill2web.com/en/prompts/community/486a7a0a-ed03-4fb2-9886-010215959dc5/"
+        },
+        "zh": {
+          "title": "整理日程并做好会前准备",
+          "purpose": "根据指定日期的日历活动及可用的相关邮件或材料，整理会议背景、待查看内容和后勤问题，并标明不确定之处。",
+          "siteUrl": "https://reset.skill2web.com/zh/prompts/community/486a7a0a-ed03-4fb2-9886-010215959dc5/"
+        }
+      }
     }
   ]
 }
