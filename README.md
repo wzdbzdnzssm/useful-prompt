@@ -6,7 +6,7 @@ Useful English and Chinese AI prompts from [Skill2Web](https://reset.skill2web.c
 
 [Browse the complete online prompt library: search, choose a language and copy](https://reset.skill2web.com/en/prompts/?utm_source=github&utm_medium=referral&utm_campaign=useful_prompt&utm_content=readme_en)
 
-42 bilingual entries: 26 copyable full-text prompts and 16 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
+43 bilingual entries: 27 copyable full-text prompts and 16 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
 
 ## How to use
 
@@ -93,6 +93,7 @@ Tool and model names are context from the site entries, not cross-model compatib
 | [Review a Renewal Contract and Prepare to Negotiate](prompts/d076c9fc-92ae-415d-a1ea-d757c383de18.md) | Compare an existing agreement with a renewal proposal and prepare evidence-based negotiation priorities, fallback positions, and verification needs. | Reference |
 | [Analyze Campaigns and Plan Next Steps](prompts/4ca6a11e-c5a5-48d6-8e77-7945c97feb2f.md) | Compare campaign, channel, and segment performance using supplied data and business goals, then recommend measurable next-period actions. | Reference |
 | [Co-create a Learning Case](prompts/a623513b-2d02-476f-887a-ed18d19148dd.md) | Guide a learner through creating, revising, and reflecting on a peer-workable case about a topic they have studied. | Full text |
+| [Analyze a Scenario to Practice a Concept](prompts/58ea1701-131a-43ad-9c5e-ae3c10bcf34c.md) | Guide a learner to assess a fictional scenario using their own understanding of a concept, without giving away the analysis. | Full text |
 
 ## Browse online
 
