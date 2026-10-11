@@ -6,7 +6,7 @@ Useful English and Chinese AI prompts from [Skill2Web](https://reset.skill2web.c
 
 [Browse the complete online prompt library: search, choose a language and copy](https://reset.skill2web.com/en/prompts/?utm_source=github&utm_medium=referral&utm_campaign=useful_prompt&utm_content=readme_en)
 
-50 bilingual entries: 32 copyable full-text prompts and 18 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
+51 bilingual entries: 33 copyable full-text prompts and 18 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
 
 ## How to use
 
@@ -101,6 +101,7 @@ Tool and model names are context from the site entries, not cross-model compatib
 | [Practice Goal Setting Through Role-Play](prompts/8ff943b1-2ee9-4f1f-8439-1718d8760113.md) | Guide a learner in helping a fictional character clarify goals, set priorities, and address obstacles, then give feedback based on the learner’s actual responses. | Full text |
 | [Prioritize Tasks by Urgency and Importance](prompts/0ab4991a-4f85-4ebb-bc4d-bb0ec71ff2d5.md) | Classify a task list using real deadlines and user goals, then suggest practical next actions and near-term focus. | Full text |
 | [Review a Discord Server Structure](prompts/dd194ba6-c94a-447a-8deb-a7fb46e1c2f7.md) | Find organization, discoverability, redundancy, and permission concerns in supplied server details, then recommend practical improvements in priority order. | Full text |
+| [Write a Clear, Original Essay](prompts/f0acf640-3120-474e-8456-09f81241a7e0.md) | Create a publish-ready essay from a supplied topic or material while preserving facts and avoiding invented claims or imitation of a specific writer’s distinctive style. | Full text |
 
 ## Browse online
 

@@ -2267,6 +2267,63 @@
           "completion": "有证据依据的结构与权限问题、优先级建议、可选的建议结构，以及需要管理员进一步核实的事项。"
         }
       }
+    },
+    {
+      "id": "f0acf640-3120-474e-8456-09f81241a7e0",
+      "kind": "community",
+      "status": "full-text",
+      "category": "operations",
+      "license": "MIT",
+      "licenseNotice": "MIT License\n\nCopyright (c) 2012-2024 Scott Chacon and others\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLicense source: https://github.com/danielmiessler/Fabric/blob/main/LICENSE",
+      "source": "write essay",
+      "author": "Daniel Miessler and Fabric contributors",
+      "sourceUrl": "https://raw.githubusercontent.com/danielmiessler/Fabric/main/data/patterns/write_essay/system.md",
+      "sourceTitle": "write essay",
+      "adapted": true,
+      "locales": {
+        "en": {
+          "title": "Write a Clear, Original Essay",
+          "purpose": "Create a publish-ready essay from a supplied topic or material while preserving facts and avoiding invented claims or imitation of a specific writer’s distinctive style.",
+          "body": "Write an original, publish-ready essay about the topic or material provided. First identify the essay’s purpose, intended audience, and any constraints supplied by the user. Develop a clear central idea and a coherent progression of supporting points. Use only facts and examples supplied by the user or otherwise reliably known; do not invent sources, quotations, or evidence. If essential facts are missing, state the uncertainty briefly or ask a focused question rather than presenting guesses as facts. Use clear, natural language and avoid clichés, needless jargon, and formulaic openings or conclusions. Do not imitate a named writer’s distinctive style; if the user names an author, instead apply broad, non-exclusive preferences they specify, such as concise, conversational, or analytical. Return the essay itself, with a suitable title if useful. Add a short note on assumptions or missing information only when it is necessary to prevent misunderstanding.\n\nTopic or source material:\n[Paste here]\n\nOptional purpose, audience, language, tone, length, and factual constraints:\n[Provide any that matter]",
+          "inputs": "A topic or source material; optionally, the purpose, audience, language, tone, length, and factual constraints.",
+          "expected": "A coherent, original essay in natural language, with assumptions or missing information noted only when necessary.",
+          "audience": "Anyone who needs an essay based on a topic or supplied material.",
+          "requirements": [
+            "conversation"
+          ],
+          "adapted": true,
+          "keywords": [],
+          "siteUrl": "https://reset.skill2web.com/en/prompts/community/f0acf640-3120-474e-8456-09f81241a7e0/",
+          "bodyLanguage": "en",
+          "tool": "通用",
+          "tags": [
+            "writing-content"
+          ],
+          "whenToUse": "Create a publish-ready essay from a supplied topic or material while preserving facts and avoiding invented claims or imitation of a specific writer’s distinctive style.",
+          "completion": "A coherent, original essay in natural language, with assumptions or missing information noted only when necessary."
+        },
+        "zh": {
+          "title": "撰写一篇清晰、有原创性的文章",
+          "purpose": "根据用户提供的主题或材料撰写适合发表的文章，并保留事实、避免臆造和模仿特定作者的独特文风。",
+          "body": "Write an original, publish-ready essay about the topic or material provided. First identify the essay’s purpose, intended audience, and any constraints supplied by the user. Develop a clear central idea and a coherent progression of supporting points. Use only facts and examples supplied by the user or otherwise reliably known; do not invent sources, quotations, or evidence. If essential facts are missing, state the uncertainty briefly or ask a focused question rather than presenting guesses as facts. Use clear, natural language and avoid clichés, needless jargon, and formulaic openings or conclusions. Do not imitate a named writer’s distinctive style; if the user names an author, instead apply broad, non-exclusive preferences they specify, such as concise, conversational, or analytical. Return the essay itself, with a suitable title if useful. Add a short note on assumptions or missing information only when it is necessary to prevent misunderstanding.\n\nTopic or source material:\n[Paste here]\n\nOptional purpose, audience, language, tone, length, and factual constraints:\n[Provide any that matter]",
+          "inputs": "主题或来源材料；可选的写作目的、目标读者、语言、语气、篇幅和事实限制。",
+          "expected": "一篇结构连贯、语言自然的原创文章；必要时简要说明假设或缺失信息。",
+          "audience": "需要根据主题或材料撰写文章的个人、学生或专业人士。",
+          "requirements": [
+            "conversation"
+          ],
+          "adapted": true,
+          "keywords": [],
+          "siteUrl": "https://reset.skill2web.com/zh/prompts/community/f0acf640-3120-474e-8456-09f81241a7e0/",
+          "bodyLanguage": "zh",
+          "tool": "通用",
+          "tags": [
+            "writing-content"
+          ],
+          "whenToUse": "根据用户提供的主题或材料撰写适合发表的文章，并保留事实、避免臆造和模仿特定作者的独特文风。",
+          "completion": "一篇结构连贯、语言自然的原创文章；必要时简要说明假设或缺失信息。"
+        }
+      }
     }
   ]
 }
