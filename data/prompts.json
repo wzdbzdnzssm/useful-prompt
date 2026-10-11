@@ -1752,6 +1752,31 @@
           "completion": "有依据的赞助商名单，包括来源频道或节目、名称、基于文本的简介及文本中提供的链接；若无法确认赞助关系，则说明这一点并指出歧义。"
         }
       }
+    },
+    {
+      "id": "d076c9fc-92ae-415d-a1ea-d757c383de18",
+      "kind": "community",
+      "status": "reference-only",
+      "category": "operations",
+      "license": "LicenseRef-Unknown",
+      "licenseNotice": "No explicit reuse license found; source attribution required",
+      "source": "Prep the vendor negotiation",
+      "author": "Anthropic",
+      "sourceUrl": "https://academy.claude.com/use-cases/vendor-negotiation",
+      "sourceTitle": "Prep the vendor negotiation",
+      "adapted": true,
+      "locales": {
+        "en": {
+          "title": "Review a Renewal Contract and Prepare to Negotiate",
+          "purpose": "Compare an existing agreement with a renewal proposal and prepare evidence-based negotiation priorities, fallback positions, and verification needs.",
+          "siteUrl": "https://reset.skill2web.com/en/prompts/community/d076c9fc-92ae-415d-a1ea-d757c383de18/"
+        },
+        "zh": {
+          "title": "审查续约合同并准备谈判",
+          "purpose": "比较现有协议与续约提案，依据提供的业务证据制定谈判重点、备选立场和待核实事项。",
+          "siteUrl": "https://reset.skill2web.com/zh/prompts/community/d076c9fc-92ae-415d-a1ea-d757c383de18/"
+        }
+      }
     }
   ]
 }
