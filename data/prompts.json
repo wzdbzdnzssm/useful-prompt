@@ -1922,6 +1922,65 @@
           "completion": "一段包含多个角色的情境、逐步引导的分析对话，以及对学习者观察的简要回顾。"
         }
       }
+    },
+    {
+      "id": "e986384c-eec7-43e2-9d0c-02f423963f1a",
+      "kind": "community",
+      "status": "full-text",
+      "category": "operations",
+      "license": "MIT",
+      "licenseNotice": "MIT License\n\nCopyright (c) 2012-2024 Scott Chacon and others\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLicense source: https://github.com/danielmiessler/Fabric/blob/main/LICENSE",
+      "source": "extract wisdom",
+      "author": "Daniel Miessler and Fabric contributors",
+      "sourceUrl": "https://raw.githubusercontent.com/danielmiessler/Fabric/main/data/patterns/extract_wisdom/system.md",
+      "sourceTitle": "extract wisdom",
+      "adapted": true,
+      "locales": {
+        "en": {
+          "title": "Extract Key Ideas and Advice from Text",
+          "purpose": "Synthesize user-provided text into a concise, evidence-grounded summary, distinguishing what the source says from interpretation.",
+          "body": "Analyze the text below and create a concise, useful synthesis grounded in what it actually says.\n\nIdentify the main ideas and, where the source supports them, more general insights, practical recommendations, noteworthy claims or facts, useful quotations, personal habits described, and referenced works, tools, or projects. Include only categories with meaningful evidence; do not force quotas or infer that a mention is an endorsement, verified fact, or recommendation. Keep quotations exact and attribute them only when the speaker is clear. Distinguish the source’s statements from your own reasonable interpretation, and label uncertainty or unsupported claims rather than presenting them as established facts. Avoid repeating the same point across sections.\n\nStart with a brief summary identifying the speaker or author and subject when available. Organize the synthesis with clear headings and concise bullets. End with a one-sentence takeaway. Use only the supplied text; do not browse or claim independent verification.\n\nText:\n[Paste text here]",
+          "inputs": "Text to analyze, pasted directly.",
+          "expected": "A concise summary with relevant, supported ideas, insights, recommendations, quotations, claims, habits, references, and a one-sentence takeaway.",
+          "audience": "Readers who need useful information extracted from articles, interviews, talks, or other text.",
+          "requirements": [
+            "conversation"
+          ],
+          "adapted": true,
+          "keywords": [],
+          "siteUrl": "https://reset.skill2web.com/en/prompts/community/e986384c-eec7-43e2-9d0c-02f423963f1a/",
+          "bodyLanguage": "en",
+          "tool": "通用",
+          "tags": [
+            "research",
+            "knowledge-workflow"
+          ],
+          "whenToUse": "Synthesize user-provided text into a concise, evidence-grounded summary, distinguishing what the source says from interpretation.",
+          "completion": "A concise summary with relevant, supported ideas, insights, recommendations, quotations, claims, habits, references, and a one-sentence takeaway."
+        },
+        "zh": {
+          "title": "提炼文本要点与建议",
+          "purpose": "从用户提供的文本中提炼有依据的主要观点、见解和建议，并区分原文内容与解读。",
+          "body": "Analyze the text below and create a concise, useful synthesis grounded in what it actually says.\n\nIdentify the main ideas and, where the source supports them, more general insights, practical recommendations, noteworthy claims or facts, useful quotations, personal habits described, and referenced works, tools, or projects. Include only categories with meaningful evidence; do not force quotas or infer that a mention is an endorsement, verified fact, or recommendation. Keep quotations exact and attribute them only when the speaker is clear. Distinguish the source’s statements from your own reasonable interpretation, and label uncertainty or unsupported claims rather than presenting them as established facts. Avoid repeating the same point across sections.\n\nStart with a brief summary identifying the speaker or author and subject when available. Organize the synthesis with clear headings and concise bullets. End with a one-sentence takeaway. Use only the supplied text; do not browse or claim independent verification.\n\nText:\n[Paste text here]",
+          "inputs": "要分析的文本，可直接粘贴。",
+          "expected": "简洁的文本摘要，包含有依据且相关的观点、见解、建议、引述、事实主张、习惯和参考资料，并附一句话总结。",
+          "audience": "需要从文章、访谈、讲稿或其他文本中提取可用信息的读者。",
+          "requirements": [
+            "conversation"
+          ],
+          "adapted": true,
+          "keywords": [],
+          "siteUrl": "https://reset.skill2web.com/zh/prompts/community/e986384c-eec7-43e2-9d0c-02f423963f1a/",
+          "bodyLanguage": "zh",
+          "tool": "通用",
+          "tags": [
+            "research",
+            "knowledge-workflow"
+          ],
+          "whenToUse": "从用户提供的文本中提炼有依据的主要观点、见解和建议，并区分原文内容与解读。",
+          "completion": "简洁的文本摘要，包含有依据且相关的观点、见解、建议、引述、事实主张、习惯和参考资料，并附一句话总结。"
+        }
+      }
     }
   ]
 }
