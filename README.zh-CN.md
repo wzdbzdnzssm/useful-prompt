@@ -6,7 +6,7 @@
 
 [浏览完整在线提示词库：搜索、选择语言并复制](https://reset.skill2web.com/zh/prompts/?utm_source=github&utm_medium=referral&utm_campaign=useful_prompt&utm_content=readme_zh)
 
-共 39 个双语条目：26 个可复制正文、13 个来源链接索引。第三方正文各自保留许可；链接索引不包含未确认复用许可的正文。
+共 39 个双语条目：25 个可复制正文、14 个来源链接索引。第三方正文各自保留许可；链接索引不包含未确认复用许可的正文。
 
 ## 使用方法
 
@@ -67,7 +67,7 @@
 
 | 模板 | 用途 | 收录 |
 | --- | --- | --- |
-| [方案比较](prompts/compare-options.md) | 在约束下选择实现方案 | 正文 |
+| [比较竞争对手并明确自身定位](prompts/compare-options.md) | 结合用户提供的竞争对手资料与自身定位，针对特定受众形成有依据的比较，说明优势、劣势和未知事项。 | 来源索引 |
 | [反方质询](prompts/devils-advocate.md) | 探索针对观点的反对意见。 | 来源索引 |
 | [开发者成长分析](prompts/developer-growth.md) | 回顾开发习惯和学习需求。 | 来源索引 |
 | [提前找出计划风险并制定应对办法](prompts/58cc2c73-3a7c-4741-986c-38df7b105f30.md) | 通过循序渐进的对话，识别计划风险、评估影响并思考应对办法，最后汇总你提出的内容。 | 正文 |

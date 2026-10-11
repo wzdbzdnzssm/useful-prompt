@@ -197,50 +197,27 @@
     {
       "id": "compare-options",
       "kind": "builtin",
-      "status": "full-text",
+      "status": "reference-only",
       "category": "planning",
-      "license": "MIT",
-      "source": "Reset site original",
-      "author": "Reset maintainers",
-      "sourceUrl": null,
-      "sourceTitle": null,
-      "adapted": false,
+      "license": "LicenseRef-Unknown",
+      "source": "Build the competitive comparison doc — source: Anthropic",
+      "author": "Reset maintainers (independent adaptation)",
+      "sourceUrl": "https://academy.claude.com/use-cases/competitor-comparison",
+      "sourceTitle": "Build the competitive comparison doc — source: Anthropic",
+      "adapted": true,
       "locales": {
         "en": {
-          "title": "Compare approaches",
-          "purpose": "Choose an implementation approach within stated constraints",
-          "siteUrl": "https://reset.skill2web.com/en/prompts/compare-options/",
-          "body": "Compare the options below and recommend one based on the goal, constraints, cost, risk, migration difficulty, reversibility, and verification method. State your decision assumptions first. If information is missing, identify it clearly, but still make a provisional choice under the current assumptions. Finish with implementation steps that can be completed within one week and explicit acceptance criteria.\n\nGoal and constraints:\n[Paste]\n\nCandidate approaches:\n[Paste]",
-          "bodyLanguage": "en",
-          "tool": "通用",
-          "tags": [
-            "decision-planning"
-          ],
-          "inputs": "Candidate approaches:\n[Paste]",
-          "expected": "Comparison table, recommendation, and implementation steps",
-          "requirements": [],
-          "audience": null,
-          "whenToUse": "Choose an implementation approach within stated constraints",
-          "completion": "Comparison table, recommendation, and implementation steps"
+          "title": "Compare a Competitor and Clarify Your Position",
+          "purpose": "Compare competitor materials with your positioning for a specific audience, using evidence to explain advantages, disadvantages, and unknowns.",
+          "siteUrl": "https://reset.skill2web.com/en/prompts/compare-options/"
         },
         "zh": {
-          "title": "方案比较",
-          "purpose": "在约束下选择实现方案",
-          "siteUrl": "https://reset.skill2web.com/zh/prompts/compare-options/",
-          "body": "比较以下方案，并基于目标、约束、成本、风险、迁移难度、可逆性和验证方式给出推荐。先列出判断前提；若信息不足，明确指出但仍在当前假设下作出暂定选择。最后给出一周内可执行的落地步骤与验收标准。\n\n目标与约束：\n[粘贴]\n\n候选方案：\n[粘贴]",
-          "bodyLanguage": "zh",
-          "tool": "通用",
-          "tags": [
-            "decision-planning"
-          ],
-          "inputs": "候选方案：\n[粘贴]",
-          "expected": "对比表、推荐方案和落地步骤",
-          "requirements": [],
-          "audience": null,
-          "whenToUse": "在约束下选择实现方案",
-          "completion": "对比表、推荐方案和落地步骤"
+          "title": "比较竞争对手并明确自身定位",
+          "purpose": "结合用户提供的竞争对手资料与自身定位，针对特定受众形成有依据的比较，说明优势、劣势和未知事项。",
+          "siteUrl": "https://reset.skill2web.com/zh/prompts/compare-options/"
         }
-      }
+      },
+      "licenseNotice": "No explicit reuse license found; source attribution required"
     },
     {
       "id": "diagnose-failure",

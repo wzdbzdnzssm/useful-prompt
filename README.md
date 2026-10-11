@@ -6,7 +6,7 @@ Useful English and Chinese AI prompts from [Skill2Web](https://reset.skill2web.c
 
 [Browse the complete online prompt library: search, choose a language and copy](https://reset.skill2web.com/en/prompts/?utm_source=github&utm_medium=referral&utm_campaign=useful_prompt&utm_content=readme_en)
 
-39 bilingual entries: 26 copyable full-text prompts and 13 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
+39 bilingual entries: 25 copyable full-text prompts and 14 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
 
 ## How to use
 
@@ -67,7 +67,7 @@ Tool and model names are context from the site entries, not cross-model compatib
 
 | Template | Use | Included |
 | --- | --- | --- |
-| [Compare approaches](prompts/compare-options.md) | Choose an implementation approach within stated constraints | Full text |
+| [Compare a Competitor and Clarify Your Position](prompts/compare-options.md) | Compare competitor materials with your positioning for a specific audience, using evidence to explain advantages, disadvantages, and unknowns. | Reference |
 | [Devil’s advocate](prompts/devils-advocate.md) | Explore objections to a proposed argument. | Reference |
 | [Analyze Developer Growth](prompts/developer-growth.md) | Reflect on development habits and learning needs. | Reference |
 | [Identify Plan Risks and Develop Responses](prompts/58cc2c73-3a7c-4741-986c-38df7b105f30.md) | Identify risks in a plan, assess their impact, and develop responses through a step-by-step conversation, then summarize your contributions. | Full text |
