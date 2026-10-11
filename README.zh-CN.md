@@ -6,7 +6,7 @@
 
 [浏览完整在线提示词库：搜索、选择语言并复制](https://reset.skill2web.com/zh/prompts/?utm_source=github&utm_medium=referral&utm_campaign=useful_prompt&utm_content=readme_zh)
 
-共 34 个双语条目：21 个可复制正文、13 个来源链接索引。第三方正文各自保留许可；链接索引不包含未确认复用许可的正文。
+共 35 个双语条目：22 个可复制正文、13 个来源链接索引。第三方正文各自保留许可；链接索引不包含未确认复用许可的正文。
 
 ## 使用方法
 
@@ -85,6 +85,7 @@
 | [优化 AGENTS 和 Skill](prompts/audit-agent-instructions.md) | 识别会造成不必要停顿、确认或任务不完整的代理指令问题。 | 正文 |
 | [电脑存储空间清理（Windows / macOS）](prompts/computer-storage-cleanup.md) | 空间不足时，深入调查磁盘占用，逐项确认后移入回收站，并核对恢复方式和实际空间变化。 | 正文 |
 | [Codex UI 文案去 AI 味：清理 AI Slop 与开发说明](prompts/657285a6-21b3-4f4e-bc5b-2d14346a7122.md) | 深查全项目用户可见内容，按关联问题分组确认，再从内容源清理冗余文案和开发说明。 | 正文 |
+| [通过团队讨论制定项目章程](prompts/36bb19a1-8565-4f0a-b52e-70cbbe998237.md) | 引导团队讨论项目目标、职责分工和协作规范，并整理成基于团队实际意见的章程。 | 正文 |
 
 ## 在线浏览
 
