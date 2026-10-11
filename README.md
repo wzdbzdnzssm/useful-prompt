@@ -6,7 +6,7 @@ Useful English and Chinese AI prompts from [Skill2Web](https://reset.skill2web.c
 
 [Browse the complete online prompt library: search, choose a language and copy](https://reset.skill2web.com/en/prompts/?utm_source=github&utm_medium=referral&utm_campaign=useful_prompt&utm_content=readme_en)
 
-48 bilingual entries: 30 copyable full-text prompts and 18 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
+49 bilingual entries: 31 copyable full-text prompts and 18 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
 
 ## How to use
 
@@ -99,6 +99,7 @@ Tool and model names are context from the site entries, not cross-model compatib
 | [Screen an NDA Against Your Standards](prompts/6e914b98-264c-4dd2-94f7-49e20f46c193.md) | Screen a non-disclosure agreement against the user’s playbook, identify exceptions and uncertainties, and state what human review is needed. | Reference |
 | [Prepare for Your Calendar Day](prompts/486a7a0a-ed03-4fb2-9886-010215959dc5.md) | Use a specified day’s events and available related messages or materials to surface meeting context, preparation needs, and logistics gaps, while clearly noting uncertainty. | Reference |
 | [Practice Goal Setting Through Role-Play](prompts/8ff943b1-2ee9-4f1f-8439-1718d8760113.md) | Guide a learner in helping a fictional character clarify goals, set priorities, and address obstacles, then give feedback based on the learner’s actual responses. | Full text |
+| [Prioritize Tasks by Urgency and Importance](prompts/0ab4991a-4f85-4ebb-bc4d-bb0ec71ff2d5.md) | Classify a task list using real deadlines and user goals, then suggest practical next actions and near-term focus. | Full text |
 
 ## Browse online
 
