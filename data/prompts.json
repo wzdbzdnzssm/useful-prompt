@@ -1981,6 +1981,65 @@
           "completion": "简洁的文本摘要，包含有依据且相关的观点、见解、建议、引述、事实主张、习惯和参考资料，并附一句话总结。"
         }
       }
+    },
+    {
+      "id": "f93a6358-03a0-4456-9f94-ec7882971991",
+      "kind": "community",
+      "status": "full-text",
+      "category": "operations",
+      "license": "MIT",
+      "licenseNotice": "MIT License\n\nCopyright (c) 2012-2024 Scott Chacon and others\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLicense source: https://github.com/danielmiessler/Fabric/blob/main/LICENSE",
+      "source": "create golden rules — Original source by Daniel Miessler and Fabric contributors",
+      "author": "Reset maintainers (independent adaptation)",
+      "sourceUrl": "https://raw.githubusercontent.com/danielmiessler/Fabric/main/data/patterns/create_golden_rules/system.md",
+      "sourceTitle": "create golden rules — Original source by Daniel Miessler and Fabric contributors",
+      "adapted": true,
+      "locales": {
+        "en": {
+          "title": "Extract Practical Project Rules",
+          "purpose": "Turn project or team material into evidence-based, actionable rules that can be checked in practice.",
+          "body": "Create a practical set of project or team rules from the material provided. The material may be pasted text or accessible files such as source code, documentation, standards, or process notes. Do not assume access to a repository or files unless they are actually available.\n\nAnalyze the material for explicit requirements, recurring conventions, and well-supported implicit rules. Separate evidence from inference: for each rule, cite a relevant file, section, or supplied example when possible. Do not present a guess as an established team practice. If the evidence is insufficient or contradictory, mark the rule as provisional or ask a focused question.\n\nSelect rules that prevent meaningful errors or inconsistency; avoid generic advice and rules that merely restate obvious conventions. Group the useful rules by topic and prioritize them by consequence: critical rules protect against serious failures, important rules prevent recurring friction or costly rework, and guidelines are recommended practices that allow justified exceptions.\n\nWrite each rule as a clear, actionable statement that can be checked in review or, where feasible, automatically. For each rule, include its rationale, a positive and negative example when the supplied material supports them, and a practical way to verify compliance. Do not invent project-specific examples, commands, tools, or tests. Mark suggested verification that has not actually been run as unverified.\n\nFinish with a concise quick-reference list and a checklist derived from the rules. Keep the result focused: include only rules justified by the evidence, and call out unresolved questions or material gaps. Do not edit files or claim that a rule has been enforced unless the user explicitly asks and suitable access and tools are available.\n\nSource attribution: The original source entry is attributed to Daniel Miessler and Fabric contributors and identifies itself as MIT-licensed. This prompt is independently worded; retain that attribution when cataloging the source-derived task.",
+          "inputs": "Pasted code, documentation, standards, or process notes; alternatively, files that are actually accessible.",
+          "expected": "Prioritized rules with supporting evidence, rationale, examples, and verification guidance, plus a quick reference, checklist, and unresolved questions.",
+          "audience": "Developers, maintainers, and team leads who need clear, reusable project standards.",
+          "requirements": [
+            "conversation"
+          ],
+          "adapted": true,
+          "keywords": [],
+          "siteUrl": "https://reset.skill2web.com/en/prompts/community/f93a6358-03a0-4456-9f94-ec7882971991/",
+          "bodyLanguage": "en",
+          "tool": "通用",
+          "tags": [
+            "knowledge-workflow",
+            "review"
+          ],
+          "whenToUse": "Turn project or team material into evidence-based, actionable rules that can be checked in practice.",
+          "completion": "Prioritized rules with supporting evidence, rationale, examples, and verification guidance, plus a quick reference, checklist, and unresolved questions."
+        },
+        "zh": {
+          "title": "提炼项目规则",
+          "purpose": "从项目材料中提炼有证据依据、可执行且可检查的团队规则。",
+          "body": "Create a practical set of project or team rules from the material provided. The material may be pasted text or accessible files such as source code, documentation, standards, or process notes. Do not assume access to a repository or files unless they are actually available.\n\nAnalyze the material for explicit requirements, recurring conventions, and well-supported implicit rules. Separate evidence from inference: for each rule, cite a relevant file, section, or supplied example when possible. Do not present a guess as an established team practice. If the evidence is insufficient or contradictory, mark the rule as provisional or ask a focused question.\n\nSelect rules that prevent meaningful errors or inconsistency; avoid generic advice and rules that merely restate obvious conventions. Group the useful rules by topic and prioritize them by consequence: critical rules protect against serious failures, important rules prevent recurring friction or costly rework, and guidelines are recommended practices that allow justified exceptions.\n\nWrite each rule as a clear, actionable statement that can be checked in review or, where feasible, automatically. For each rule, include its rationale, a positive and negative example when the supplied material supports them, and a practical way to verify compliance. Do not invent project-specific examples, commands, tools, or tests. Mark suggested verification that has not actually been run as unverified.\n\nFinish with a concise quick-reference list and a checklist derived from the rules. Keep the result focused: include only rules justified by the evidence, and call out unresolved questions or material gaps. Do not edit files or claim that a rule has been enforced unless the user explicitly asks and suitable access and tools are available.\n\nSource attribution: The original source entry is attributed to Daniel Miessler and Fabric contributors and identifies itself as MIT-licensed. This prompt is independently worded; retain that attribution when cataloging the source-derived task.",
+          "inputs": "粘贴的代码、文档、标准或流程说明；也可提供实际可访问的文件。",
+          "expected": "按优先级整理并附证据、理由和验证方法的规则，以及速查表、检查清单和待确认事项。",
+          "audience": "需要整理和传达项目或团队规范的开发者、维护者与团队负责人。",
+          "requirements": [
+            "conversation"
+          ],
+          "adapted": true,
+          "keywords": [],
+          "siteUrl": "https://reset.skill2web.com/zh/prompts/community/f93a6358-03a0-4456-9f94-ec7882971991/",
+          "bodyLanguage": "zh",
+          "tool": "通用",
+          "tags": [
+            "knowledge-workflow",
+            "review"
+          ],
+          "whenToUse": "从项目材料中提炼有证据依据、可执行且可检查的团队规则。",
+          "completion": "按优先级整理并附证据、理由和验证方法的规则，以及速查表、检查清单和待确认事项。"
+        }
+      }
     }
   ]
 }
