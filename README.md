@@ -6,7 +6,7 @@ Useful English and Chinese AI prompts from [Skill2Web](https://reset.skill2web.c
 
 [Browse the complete online prompt library: search, choose a language and copy](https://reset.skill2web.com/en/prompts/?utm_source=github&utm_medium=referral&utm_campaign=useful_prompt&utm_content=readme_en)
 
-35 bilingual entries: 22 copyable full-text prompts and 13 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
+36 bilingual entries: 23 copyable full-text prompts and 13 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
 
 ## How to use
 
@@ -86,6 +86,7 @@ Tool and model names are context from the site entries, not cross-model compatib
 | [Safe computer storage cleanup for Windows and macOS](prompts/computer-storage-cleanup.md) | Investigate disk usage and review cleanup candidates before confirmed moves to the Recycle Bin or Trash. | Full text |
 | [Fix AI Slop in Codex UI Copy: Remove Excess UI Verbosity and Developer Notes](prompts/657285a6-21b3-4f4e-bc5b-2d14346a7122.md) | Inspect user-facing content across the whole project, confirm related issues in groups, and clean redundant copy and developer notes at their source. | Full text |
 | [Create a Team Project Charter](prompts/36bb19a1-8565-4f0a-b52e-70cbbe998237.md) | Guide a team discussion about project goals, responsibilities, and working norms, then summarize the team's actual agreements in a usable charter. | Full text |
+| [Guide a Learner to Connect Two Concepts](prompts/6e39a7ce-fbef-401f-be95-23e77024ee6f.md) | Use a one-question-at-a-time dialogue to help a learner discover connections between two concepts and recap their reasoning. | Full text |
 
 ## Browse online
 
