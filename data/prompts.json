@@ -2040,6 +2040,31 @@
           "completion": "按优先级整理并附证据、理由和验证方法的规则，以及速查表、检查清单和待确认事项。"
         }
       }
+    },
+    {
+      "id": "6e914b98-264c-4dd2-94f7-49e20f46c193",
+      "kind": "community",
+      "status": "reference-only",
+      "category": "operations",
+      "license": "LicenseRef-Unknown",
+      "licenseNotice": "LicenseRef-Unknown",
+      "source": "NDA triage at scale — Original source by Anthropic",
+      "author": "Reset maintainers (independent adaptation)",
+      "sourceUrl": "https://academy.claude.com/use-cases/nda-review",
+      "sourceTitle": "NDA triage at scale — Original source by Anthropic",
+      "adapted": true,
+      "locales": {
+        "en": {
+          "title": "Screen an NDA Against Your Standards",
+          "purpose": "Screen a non-disclosure agreement against the user’s playbook, identify exceptions and uncertainties, and state what human review is needed.",
+          "siteUrl": "https://reset.skill2web.com/en/prompts/community/6e914b98-264c-4dd2-94f7-49e20f46c193/"
+        },
+        "zh": {
+          "title": "按标准筛查保密协议",
+          "purpose": "根据用户提供的保密协议审查标准筛查协议，指出符合项、例外和待确认事项，并说明所需的人工审查。",
+          "siteUrl": "https://reset.skill2web.com/zh/prompts/community/6e914b98-264c-4dd2-94f7-49e20f46c193/"
+        }
+      }
     }
   ]
 }

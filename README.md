@@ -6,7 +6,7 @@ Useful English and Chinese AI prompts from [Skill2Web](https://reset.skill2web.c
 
 [Browse the complete online prompt library: search, choose a language and copy](https://reset.skill2web.com/en/prompts/?utm_source=github&utm_medium=referral&utm_campaign=useful_prompt&utm_content=readme_en)
 
-45 bilingual entries: 29 copyable full-text prompts and 16 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
+46 bilingual entries: 29 copyable full-text prompts and 17 source references. Third-party texts retain their own licenses; references omit texts whose reuse permission has not been established.
 
 ## How to use
 
@@ -96,6 +96,7 @@ Tool and model names are context from the site entries, not cross-model compatib
 | [Analyze a Scenario to Practice a Concept](prompts/58ea1701-131a-43ad-9c5e-ae3c10bcf34c.md) | Guide a learner to assess a fictional scenario using their own understanding of a concept, without giving away the analysis. | Full text |
 | [Extract Key Ideas and Advice from Text](prompts/e986384c-eec7-43e2-9d0c-02f423963f1a.md) | Synthesize user-provided text into a concise, evidence-grounded summary, distinguishing what the source says from interpretation. | Full text |
 | [Extract Practical Project Rules](prompts/f93a6358-03a0-4456-9f94-ec7882971991.md) | Turn project or team material into evidence-based, actionable rules that can be checked in practice. | Full text |
+| [Screen an NDA Against Your Standards](prompts/6e914b98-264c-4dd2-94f7-49e20f46c193.md) | Screen a non-disclosure agreement against the user’s playbook, identify exceptions and uncertainties, and state what human review is needed. | Reference |
 
 ## Browse online
 
